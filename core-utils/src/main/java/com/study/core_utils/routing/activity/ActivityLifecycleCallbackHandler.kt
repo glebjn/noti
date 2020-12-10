@@ -3,8 +3,9 @@ package com.study.core_utils.routing.activity
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
+import javax.inject.Inject
 
-class ActivityLifecycleCallbackHandler constructor(
+class ActivityLifecycleCallbackHandler @Inject constructor(
     private val activityHolder: ActivityHolder
 ) : Application.ActivityLifecycleCallbacks {
 
