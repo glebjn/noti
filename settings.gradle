@@ -1,2 +1,4 @@
 rootProject.name = "noti"
 include ':app'
+include ':core-utils'
+include ':noties-ui'
